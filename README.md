@@ -21,3 +21,15 @@ El proyecto se ejecuta en http://localhost:8083
 
 ## Base de datos
 Se utiliza la base de datos Pagila cargada en PostgreSQL.
+
+## Guía para cargar la base de datos Pagila
+
+1. Instalar PostgreSQL y pgAdmin 4.
+2. Abrir pgAdmin 4 e iniciar sesión.
+3. Crear una nueva base de datos llamada "pagila".
+4. Descargar el archivo pagila.sql.
+5. En pgAdmin, hacer clic derecho sobre la base de datos "pagila".
+6. Seleccionar Restore.
+7. Elegir el archivo pagila.sql y ejecutar la restauración.
+8. Verificar que las tablas se hayan creado correctamente.
+
